@@ -4,7 +4,7 @@ import * as bs58 from "bs58";
 
 async function mintNFT()  {
   //PROVIDE YOUR JSON URI WITH THE URL OF THE JSON UPLADAED TO ARWEAVE uploadJSON.ts
-let uriS:String = "";
+let uriS = "";
  console.log("minting")
     let connection = new Connection(clusterApiUrl("mainnet-beta"));
 
