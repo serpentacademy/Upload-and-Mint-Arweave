@@ -9,7 +9,7 @@ let uriS:String = "";
     let connection = new Connection(clusterApiUrl("mainnet-beta"));
 
     //let secretKey: Uint8Array= Uint8Array.from([]);
-    let keypair: Keypair = Keypair.fromSecretKey(bs58.decode("YOUR SOLANA WALLET"));
+    let keypair: Keypair = Keypair.fromSecretKey(bs58.decode("YOUR SOLANA WALLET PRIVATE KEY"));
     const mintNFTResponse = await actions.mintNFT({
         connection,
         wallet: new NodeWallet(keypair),
